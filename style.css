@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.slider{
+    position: relative;
+    width: 100%;
+    /* height: 90vh; */
+    /* height: 600px; */
+    margin: auto;
+    overflow: hidden;
+
+}
+.slider img{
+    /* width: 100%; */
+    display: none;
+    margin: auto;
+}
+img.displayslide{
+    display: block;
+}
+.slider button{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    padding: 10px 15px;
+    background-color: hsla(0, 0%, 0%, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.prev{
+    left: 100px;
+}
+.next{
+    right:100px;
+}
