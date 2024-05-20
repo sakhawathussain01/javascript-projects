@@ -19,6 +19,8 @@
 }
 img.displayslide{
     display: block;
+    animation-name: fade;
+    animation-duration: 1.5s;
 }
 .slider button{
     position: absolute;
@@ -36,4 +38,8 @@ img.displayslide{
 }
 .next{
     right:100px;
+}
+@keyframes fade{
+    from{opacity: .5;}
+    to{opacity: 1;}
 }
